@@ -1,0 +1,131 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+body
+{
+    background: linear-gradient(to bottom, #560EE3,#5ebde2,#60e2ac);
+    background-color: white;
+    color: black;
+}
+header
+{
+    text-align: center;
+    margin-top: auto;
+    font-size: xx-large;
+    color: white;
+}
+
+section
+{
+    padding: 100px 11% 90px;
+}
+.greet
+{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 1.5rem;
+}
+.greet-image img
+{
+    width: 100%;
+    height: auto;
+}
+.greet-text h4
+{
+    font-size: 22px;
+    font-weight: 500;
+    color: #ffffff;
+}
+.greet-text h1
+{
+    font-size: 50px;
+    color: #ebebeb;
+    line-height: 0.0;
+    margin: 25px 0 45px;
+}
+.greet-text h3
+{
+    margin: auto;
+    margin-top: auto;
+    color: white;
+}
+.button1
+{
+    display: inline-block;
+    padding: 16px 30px;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    letter-spacing: 1px;
+    border-radius: 30px;
+}
+span
+{
+    color: rgb(255, 255, 255);
+}
+.skill-content
+{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(500px, auto));
+    gap: 2rem;
+    align-items: center;
+    margin-top: 5rem;
+}
+.main-row
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+}
+.row-button
+{
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    border-radius: 30px;
+    margin-left: -10px;
+}
+.pref-text
+{
+    text-align: center;
+}
+.pref-image 
+{
+    width: 50%;
+    height: 50%;
+}
+img
+{
+    width: 100%;
+}
+.pref-container
+{
+    display: flex;
+}
+.assignment
+{
+    text-align: center;
+    font-size: large;
+}
+.link
+{
+    font-size: 15px;
+}
+
+
+
